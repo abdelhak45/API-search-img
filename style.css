@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: 200;
+    color: rebeccapurple;
+    width: fit-content;
+    margin: 40px auto;
+    border-bottom: rebeccapurple 2px solid;
+    border-radius: 5px;
+}
+
+input#input {
+    padding: 6px;
+    width: 500px;
+    border: rebeccapurple solid 1px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.resoult{
+    text-align: center;
+    display: block;
+}
+#showMore{
+    width: 80%;
+    margin: 40px auto;
+    font-weight: 600;
+    display: none;
+}
+
+.href{
+    text-decoration: none;
+    color: rgb(37, 91, 136);
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.href:hover{
+    color: blue;
+}
